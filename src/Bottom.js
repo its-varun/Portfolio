@@ -4,26 +4,44 @@ function Bottom() {
   return (
     <div className="bottom" >
         <div className='bottom_container'>
-            <div className='box'>
-                <i class="fa-solid fa-envelope"></i>
-                <span className='text'>
-                    varunkansal2111@gmail.com
-                </span>
+            <div >
+            <a href="mailto:varunkansal2111@gmail.com" className='text' style={{textDecoration:"none"}}>
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="mailto:varunkansal2111@gmail.com" className='text1' style={{textDecoration:"none"}}>
+                    <span >
+                        varunkansal2111@gmail.com
+                    </span>
+                </a>
             </div>
-            <div className='box'>
-                <i class="fa-solid fa-mobile"></i>
-                <span className='text'>
-                    +91 8699344136
-                </span>
+            <div >
+                <a href="tel:+91 8699344136" style={{textDecoration:"none"}} className='text'>
+                    <i class="fa-solid fa-mobile"></i>
+                </a>
+                <a href="tel:+91 8699344136" style={{textDecoration:"none"}} className='text1'>
+                    <span >
+                        +91 8699344136
+                    </span>
+                </a>
             </div>
 
         </div>
         <div className='icons'>
-            <i style={{marginRight:"10px"}} class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/+918699344136?text=Hello want to know something.............." className='social'  target="_blank">
+                <i style={{marginRight:"10px"}} class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="" className='social'  target="_blank">
             <i style={{marginRight:"10px"}} class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" className='social'  target="_blank">
             <i style={{marginRight:"10px"}} class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://github.com/its-varun"  target="_blank" className='social'>
             <i style={{marginRight:"10px"}} class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/varun-kansal-3370351bb/" target="_blank" className='social'>
             <i style={{marginRight:"10px"}} class="fa-brands fa-linkedin-in"></i>
+            </a>
         </div>
     </div>
   )

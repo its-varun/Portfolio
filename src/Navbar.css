@@ -2,6 +2,7 @@
     width:100vw;
     text-align: center;
     display: flex;
+    margin-top: 10px;
     justify-content: center;
 }
 
@@ -11,13 +12,14 @@
     justify-content: space-between;
     align-items: center;
     color:#4D4D4D;
-    font-family: cursive ;
+    font-family: Comic Sans MS, Comic Sans, cursive ;
 }
 
 .nav{
     font-weight: bold;
     color:gray;
     transition-duration: 400ms;
+    text-decoration: none;
 }
 
 .nav:hover{

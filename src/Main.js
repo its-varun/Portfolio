@@ -1,11 +1,15 @@
 import React from 'react'
 import person from './images/person.jpg';
 import './Main.css'
+import Navbar from './Navbar';
+import Bottom from './Bottom';
+import { Link } from 'react-router-dom';
+import Pdf from "./pdf/Resume.pdf"
 
 function Main() {
     return (
         <>
-
+            <Navbar/>
             <div className='main_holder'>
                 <div className='holder'>
 
@@ -13,15 +17,21 @@ function Main() {
                         <h1 className='greetings'>Hello,</h1>
                         <p className='below_greeting'>a bit about me :</p>
                         <div className='circle_container'>
-                            <div className="circle one">
-                                My Resume
-                            </div>
-                            <div className="circle two">
-                                My Work
-                            </div>
-                            <div className="circle three">
-                                My Skill
-                            </div>
+                            <a href={Pdf} target="_blank" style={{textDecoration:"none"}}>
+                                <div className="circle one">
+                                    My Resume
+                                </div>
+                            </a>
+                            <Link to="/project" style={{textDecoration:"none"}}>
+                                <div className="circle two">
+                                    My Project
+                                </div>
+                            </Link>
+                            <Link to="contact" style={{textDecoration:"none"}}>
+                                <div className="circle three">
+                                    Contact Me
+                                </div>
+                            </Link>
                         </div>
                         <div>
                             <div className='para'>
@@ -35,6 +45,7 @@ function Main() {
                     </div>
                 </div>
             </div>
+            <Bottom/>
         </>
     )
 }

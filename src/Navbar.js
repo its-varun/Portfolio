@@ -1,23 +1,24 @@
 import React from 'react'
 import "./Navbar.css"
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Pdf from "./pdf/Resume.pdf"
 
 function Navbar() {
   return (
     <div className='container' >
         <div className='nav_holder'>
-            <p className='nav'>
+            <Link to="/"className='nav'>
                 HOME
-            </p>
-            <p className='nav'>
+            </Link>
+            <Link to="/project"className='nav'>
                 PROJECTS
-            </p>
-            <p className='nav'>
+            </Link>
+            <a href={Pdf} target="_blank" className='nav'>
                 RESUME
-            </p>
-            <p className='nav'>
+            </a>
+            <Link to="/contact"className='nav'>
                 CONTACT
-            </p>
+            </Link>
         </div>
     </div>
   )
