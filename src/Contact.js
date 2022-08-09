@@ -6,7 +6,7 @@ import './Contact.css'
 function Contact() {
   return (
     <>
-        <Navbar/>
+        <Navbar page="contact"/>
         <div id="main">
             <div className="box box1">
                 <p className='reason'>CONTACT :)</p>

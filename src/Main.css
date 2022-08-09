@@ -73,9 +73,11 @@
     display: flex;
 }
 .para{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 15px;
     width:100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey;
 }
 .info{
     margin-top: 12%;

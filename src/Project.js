@@ -7,7 +7,7 @@ import Card from './Card'
 function Project() {
   return (
     <>
-    <Navbar/>
+    <Navbar page="project"/>
     <h1 className="heading1">.....My Projects.....</h1>
     <div className='cards_container'>
         

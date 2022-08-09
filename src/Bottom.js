@@ -30,10 +30,10 @@ function Bottom() {
             <a href="https://wa.me/+918699344136?text=Hello want to know something.............." className='social'  target="_blank">
                 <i style={{marginRight:"10px"}} class="fa-brands fa-whatsapp"></i>
             </a>
-            <a href="" className='social'  target="_blank">
+            <a href="https://instagram.com/varunkansal21?igshid=YmMyMTA2M2Y=" className='social'  target="_blank">
             <i style={{marginRight:"10px"}} class="fa-brands fa-instagram"></i>
             </a>
-            <a href="" className='social'  target="_blank">
+            <a href="https://twitter.com/Varun47639328?t=ApOIOO6R7Cq0UojDsWdbdg&s=08" className='social'  target="_blank">
             <i style={{marginRight:"10px"}} class="fa-brands fa-twitter"></i>
             </a>
             <a href="https://github.com/its-varun"  target="_blank" className='social'>
