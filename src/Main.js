@@ -17,7 +17,7 @@ function Main() {
                         <h1 className='greetings'>Hello,</h1>
                         <p className='below_greeting'>a bit about me :</p>
                         <div className='circle_container'>
-                            <a href={Pdf} target="_blank" style={{textDecoration:"none"}}>
+                            <a href={Pdf} rel="noreferrer" target="_blank" style={{textDecoration:"none"}}>
                                 <div className="circle one">
                                     My Resume
                                 </div>
